@@ -5,6 +5,7 @@ import { SignUpWindow } from './SignUpWindow';
 import  AffilateProgram  from './AffilateProgram';
 import { Circle } from './Circle'
 import { useState } from 'react'
+console.log('123')
 
 const App = () => {
   
