@@ -1,0 +1,166 @@
+.SignUpWindow{
+    display: none;
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(25, 26, 33, 0.8);
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  .Window{
+    outline: none;
+    margin: auto;
+    width: 588px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(10 0 36 / 70%) 0px 4px 60px;
+    border-radius: 5px;
+    padding: 42px 0px 72px 82px;
+    position: relative;
+    max-height: 95vh;
+    /* display: none; */
+  }
+  .TopBlock{
+    display: flex;
+    flex-direction: column;
+  }
+  .TB__SignUp{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #1C1A25;
+  }
+  .TB__HaveAccount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .HA__question{
+    font-weight: 800;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    color: #9B99B5;
+  }
+  .HA__LogIn{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #9D4FFF;
+  }
+  .EmailInput {
+    height: 50px;
+    display: flex;
+    /* position: relative; */
+    margin-top: 38px;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .EI__Email {
+    display: flex;
+    height: 18px;
+    font-weight: 800;
+    line-height: 25px;
+    color: #727093;
+  }
+  .PasswordInput {
+    height: 50px;
+    display: flex;
+    /* position: relative; */
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .PI__password {
+    /* position: absolute; */
+    /* top: -36px; */
+    height: 18px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    color: #727093;
+  }
+  .ConfirmPasswordInput {
+    height: 50px;
+    display: flex;
+    /* position: relative; */
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .CPI__password {
+    height: 18px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #727093;
+  }
+  .TellMore {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .TM__text {
+    width: 322px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #1C1A25;
+  }
+  .TM__button {
+    width: 40px;
+    height: 23px;
+    margin-left: 21px;
+  }
+  .Accept {
+    margin-top: 40px;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+  }
+  .custom-checkbox {
+    width: 1rem;
+    height: 1rem;
+  }
+  .A__text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #A19FB9;
+  }
+  .SU__button{
+    width: 236px;
+    height: 54px;
+    z-index: 2;
+    justify-content: center;
+    background: #E307A5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  input[type=email], [type=text] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #1B1C23;
+  }

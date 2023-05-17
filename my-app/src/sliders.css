@@ -1,0 +1,102 @@
+html {
+  font-family: 'Gilroy';
+  color: #FFFFFF;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #1B1C23 0%, #220235 53.8%, #220235 100%);
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.MainSlider {
+  width: 100%;
+  height: 315px;
+  margin-top: 158px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.Slider {
+  width: 110%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+.slide__1 {
+  width: 595px;
+  height: 262px;
+  position: relative;
+  background: linear-gradient(18deg, #EF08BC7F 20%, #7E2DA57F 40%, #5A57FF7F 80%);
+  /* margin-right: 190px; */
+}
+.S1__toptext {
+  position: absolute;
+  top: 46px;
+  left: 56px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  z-index: 2;
+}
+.S1__middletext {
+  width: 161px;
+  height: 31px;
+  position: absolute;
+  top: 98px;
+  left: 70px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #FEFCFF;
+  z-index: 2;
+}
+.S1__sale {
+  width: 136px;
+  height: 50px;
+  position: absolute;
+  top: 125px;
+  left: 70px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 55px;
+  color: #FC75FF;
+  z-index: 2;
+}
+.S1__bottom__text {
+  width: 103px;
+  height: 36px;
+  position: absolute;
+  top: 171px;
+  left: 70px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FEFCFF;
+  z-index: 2;
+}
+.BTCstack {
+  /* width: 330px; */
+  /* height: 275px; */
+  /* position: absolute; */
+  /* top: 0px; */
+  /* left: 0px; */
+  z-index: 2;
+}
+.left_arrow {
+  /* background-image: url(source/element/left.png);
+  height: 88px;
+  width: 39px; */
+  width: 190px;
+  height: 89px;
+  padding: 0 60px;
+}

@@ -1,0 +1,169 @@
+.Circle {
+    width: 500px;
+    height: 500px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 85px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5.3rem;
+  }
+  .CoolOne {
+    background-image: url(source/img/CoolOne.png);
+    width: 253px;
+    height: 322px;
+    z-index: 2;
+  }
+  .element_1 {
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(258.5deg, rgb(54, 22, 95) -16.99%, rgb(128, 0, 255) 95.96%);
+    box-shadow: rgb(49 1 87 / 80%) -5px 10px 20px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -50px;
+    left: 200px;
+  }
+  .el_1_pic {
+    width: 50px;
+    height: 52px;
+  }
+  .el_1_text {
+    width: 156px;
+    top: -38px;
+    left: -10px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  .element_2 {
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(258.5deg, rgb(54, 22, 95) -16.99%, rgb(128, 0, 255) 95.96%);
+    box-shadow: rgb(49 1 87 / 80%) -5px 10px 20px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 80px;
+    right: -27px;
+  }
+  .el_2_pic {
+    width: 41px;
+    height: 41px;
+  }
+  .el_2_text {
+    width: 136px;
+    left: 105px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  .element_3 {
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(258.5deg, rgb(54, 22, 95) -16.99%, rgb(128, 0, 255) 95.96%);
+    box-shadow: rgb(49 1 87 / 80%) -5px 10px 20px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 27px;
+    right: 30px;
+    z-index: 2;
+  }
+  .el_3_pic {
+    width: 35px;
+    height: 32px;
+  }
+  .el_3_text {
+    width: 136px;
+    left: 105px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  .element_4 {
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(258.5deg, rgb(54, 22, 95) -16.99%, rgb(128, 0, 255) 95.96%);
+    box-shadow: rgb(49 1 87 / 80%) -5px 10px 20px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 27px;
+    left: 30px;
+    z-index: 2;
+  }
+  .el_4_pic {
+    width: 50px;
+    height: 50px;
+  }
+  .el_4_text {
+    width: 136px;
+    right: 65px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  .element_5 {
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(258.5deg, rgb(54, 22, 95) -16.99%, rgb(128, 0, 255) 95.96%);
+    box-shadow: rgb(49 1 87 / 80%) -5px 10px 20px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 80px;
+    left: -27px;
+    z-index: 2;
+  }
+  .el_5_pic {
+    width: 44px;
+    height: 44px;
+  }
+  .el_5_text {
+    width: 136px;
+    right: 90px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  .Rectangle_back {
+    position: absolute;
+    width: 100vw;
+    height: 1382px;
+    top: 248px;
+    z-index: -1;
+  }

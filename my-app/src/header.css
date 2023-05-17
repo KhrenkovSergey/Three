@@ -1,0 +1,72 @@
+.wrapper {
+    width: 90%;
+    height: 3.25rem;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10.75rem;
+    padding-top: 2rem;
+    position: relative;
+    z-index: 3;
+}
+
+.header__logo {
+    background-image: url(source/element/Logo.png);
+    background-size: 100% 100%;
+    width: 160px;
+    height: 41px;
+}
+
+.menu_logo_tablet {
+    display: none;
+    width: 110px;
+    height: 60px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.header_menu_tablet {
+    display: none;
+    background-image: url(source/element/burger_menu.png);
+    background-size: 100% 100%;
+    width: 20px;
+    height: 15px;
+}
+
+.header_logo_tablet {
+    display: none;
+    background-image: url(source/element/Logo_Light.png);
+    background-size: 100% 100%;
+    width: 81px;
+    height: 21px;
+}
+
+.header__menu {
+    width: 70%;
+    display: flex;
+    padding: 0rem 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    background-image: url(source/element/LogInButton.png);
+    width: 156px;
+    height: 52px;
+}
+
+.header_button_tablet {
+    display: none;
+    background-image: url(source/element/LogInButtonTablet.png);
+    width: 120px;
+    height: 46px;
+    margin-right: 20px;
+}
