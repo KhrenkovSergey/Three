@@ -8,7 +8,7 @@ export const SignUpWindow = () => {
             <p className="TB__SignUp">Sign Up</p>
             <div className="TB__HaveAccount">
               <div className="HA__question">Already have an account?</div>
-              <a href="" className="HA__LogIn"> Log in</a>
+              <a href="" className="HA__LogIn "> Log in</a>
             </div>
           </div>
           <div className="EmailInput">
